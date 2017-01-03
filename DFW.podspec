@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
      'DFW' => ['Example/DFW/Assets/**/*']
    }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+   s.public_header_files = 'Example/DFW/Classes/DFWViewController.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

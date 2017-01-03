@@ -9,5 +9,6 @@
 @import UIKit;
 
 @interface DFWViewController : UIViewController
-
+@property (nonatomic, strong) UIColor *tColor;
++(id)viewcontrollerForXib;
 @end

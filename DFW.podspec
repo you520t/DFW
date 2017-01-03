@@ -30,10 +30,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'DFW/Classes/**/*'
+  s.source_files = 'Example/DFW/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'DFW' => ['DFW/Assets/*.png']
+  #   'DFW' => ['Example/DFW/*']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21D991E31E1BA31B00969CA7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D991E21E1BA31B00969CA7 /* Launch Screen.storyboard */; };
+		21D991E51E1BA33800969CA7 /* DFWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21D991E41E1BA33800969CA7 /* DFWViewController.xib */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,7 +23,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		7B34BE7840C966FAF452F15E /* Pods_DFW_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9558FF28283C96BFDEC5EC /* Pods_DFW_Example.framework */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B2F7D8ECCCCDF64B7BF80826 /* Pods_DFW_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A61F80EB55B841A6F38BF85 /* Pods_DFW_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,8 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		065653774A25F61E53EAC31D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		43984E96E9C3B02EA7D690DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		065653774A25F61E53EAC31D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		21D991E21E1BA31B00969CA7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		21D991E41E1BA33800969CA7 /* DFWViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DFWViewController.xib; path = ../DFWViewController.xib; sourceTree = "<group>"; };
+		43984E96E9C3B02EA7D690DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4A61F80EB55B841A6F38BF85 /* Pods_DFW_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DFW_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* DFW_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFW_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -49,8 +52,8 @@
 		6003F59B195388D20070C39A /* DFW-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DFW-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* DFWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFWAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* DFWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFWAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* DFWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFWViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* DFWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFWViewController.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* DFWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DFWViewController.h; path = ../DFWViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* DFWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DFWViewController.m; path = ../DFWViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* DFW_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFW_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -59,9 +62,8 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		7CC24773F4F3DBB382142DB8 /* Pods-DFW_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFW_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DFW_Example/Pods-DFW_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9D9558FF28283C96BFDEC5EC /* Pods_DFW_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DFW_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9E6B6AADF5F90E6F8901CEA /* DFW.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DFW.podspec; path = ../DFW.podspec; sourceTree = "<group>"; };
+		D9E6B6AADF5F90E6F8901CEA /* DFW.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DFW.podspec; path = ../DFW.podspec; sourceTree = "<group>"; };
 		E0A34551A90141825EF59BD2 /* Pods-DFW_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFW_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DFW_Tests/Pods-DFW_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E928DC2D0D3F434C2E5AC304 /* Pods-DFW_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFW_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DFW_Example/Pods-DFW_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EA432E8900F15D2700A9A4EB /* Pods-DFW_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFW_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DFW_Tests/Pods-DFW_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -93,6 +95,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21D991EE1E1BA84200969CA7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				21D991E41E1BA33800969CA7 /* DFWViewController.xib */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		21D991EF1E1BA84200969CA7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5A5195388D20070C39A /* DFWViewController.h */,
+				6003F5A6195388D20070C39A /* DFWViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -130,13 +149,13 @@
 		6003F593195388D20070C39A /* Example for DFW */ = {
 			isa = PBXGroup;
 			children = (
+				21D991EE1E1BA84200969CA7 /* Assets */,
+				21D991EF1E1BA84200969CA7 /* Classes */,
 				6003F59C195388D20070C39A /* DFWAppDelegate.h */,
 				6003F59D195388D20070C39A /* DFWAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* DFWViewController.h */,
-				6003F5A6195388D20070C39A /* DFWViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				21D991E21E1BA31B00969CA7 /* Launch Screen.storyboard */,
 			);
 			name = "Example for DFW";
 			path = DFW;
@@ -276,8 +295,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				21D991E31E1BA31B00969CA7 /* Launch Screen.storyboard in Resources */,
+				21D991E51E1BA33800969CA7 /* DFWViewController.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,7 +532,6 @@
 			baseConfigurationReference = 7CC24773F4F3DBB382142DB8 /* Pods-DFW_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DFW/DFW-Prefix.pch";
 				INFOPLIST_FILE = "DFW/DFW-Info.plist";
@@ -528,7 +547,6 @@
 			baseConfigurationReference = E928DC2D0D3F434C2E5AC304 /* Pods-DFW_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DFW/DFW-Prefix.pch";
 				INFOPLIST_FILE = "DFW/DFW-Info.plist";

@@ -9,10 +9,17 @@
 #import "DFWViewController.h"
 
 @interface DFWViewController ()
+@property (weak, nonatomic) IBOutlet UIView *tView;
 
 @end
 
 @implementation DFWViewController
+
++(id)viewcontrollerForXib
+{
+    DFWViewController *vc = [[DFWViewController alloc] initWithNibName:NSStringFromClass([DFWViewController class]) bundle:nil];
+    return vc;
+}
 
 - (void)viewDidLoad
 {
@@ -26,4 +33,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)setTColor:(UIColor *)tColor
+{
+    _tColor = tColor;
+    self.tView.backgroundColor = _tColor;
+}
 @end

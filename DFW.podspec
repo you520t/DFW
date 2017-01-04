@@ -32,8 +32,8 @@ TODO: Add long description of the pod here.
   s.source_files = 'Example/DFW/Classes/**/*.{h,m}'
   
 #s.resource_bundles = {
-     'DFW' => ['Example/DFW/Assets/**/*']
-   }
+     #'DFW' => ['Example/DFW/Assets/**/*']
+   #}
 s.resource=['Example/DFW/Assets/**/*']
 
    s.public_header_files = 'Example/DFW/Classes/DFWViewController.h'

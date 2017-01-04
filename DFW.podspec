@@ -31,9 +31,10 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
   s.source_files = 'Example/DFW/Classes/**/*.{h,m}'
   
-   s.resource_bundles = {
+#s.resource_bundles = {
      'DFW' => ['Example/DFW/Assets/**/*']
    }
+s.resource = ['Example/DFW/Assets/**/*']
 
    s.public_header_files = 'Example/DFW/Classes/DFWViewController.h'
   # s.frameworks = 'UIKit', 'MapKit'

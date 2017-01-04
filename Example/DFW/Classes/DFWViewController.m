@@ -19,6 +19,7 @@
 {
     NSString *bundlePath = [[NSBundle bundleForClass:[self class]]
                             pathForResource:@"DFW" ofType:@"bundle"];
+    NSLog(@"%@", bundlePath);
     NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
     DFWViewController *vc = [[DFWViewController alloc] initWithNibName:NSStringFromClass([DFWViewController class]) bundle:bundle];
     return vc;

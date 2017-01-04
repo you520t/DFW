@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
 #s.resource_bundles = {
      'DFW' => ['Example/DFW/Assets/**/*']
    }
-s.resource = ['Example/DFW/Assets/**/*']
+s.resource=['Example/DFW/Assets/**/*']
 
    s.public_header_files = 'Example/DFW/Classes/DFWViewController.h'
   # s.frameworks = 'UIKit', 'MapKit'

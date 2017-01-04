@@ -17,6 +17,7 @@
 
 +(id)viewcontrollerForXib
 {
+    NSLog(@"aaaaaaaaaa");
     NSBundle *bundle = [NSBundle bundleWithPath:[[NSBundle mainBundle]
                                                  pathForResource:@"DFW"
                                                  ofType:@"bundle"]];

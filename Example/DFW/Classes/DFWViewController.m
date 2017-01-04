@@ -17,7 +17,10 @@
 
 +(id)viewcontrollerForXib
 {
-    DFWViewController *vc = [[DFWViewController alloc] initWithNibName:NSStringFromClass([DFWViewController class]) bundle:nil];
+    NSBundle *bundle = [NSBundle bundleWithPath:[[NSBundle mainBundle]
+                                                 pathForResource:@"DFW"
+                                                 ofType:@"bundle"]];
+    DFWViewController *vc = [[DFWViewController alloc] initWithNibName:NSStringFromClass([DFWViewController class]) bundle:bundle];
     return vc;
 }
 

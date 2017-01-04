@@ -1,6 +1,0 @@
-framework module DFW {
-  umbrella header "DFW-umbrella.h"
-
-  export *
-  module * { export * }
-}

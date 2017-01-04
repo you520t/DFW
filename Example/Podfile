@@ -1,7 +1,6 @@
 use_frameworks!
 
 target 'DFW_Example' do
-  pod 'DFW', :path => '../'
 
   target 'DFW_Tests' do
     inherit! :search_paths

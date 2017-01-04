@@ -37,5 +37,5 @@ TODO: Add long description of the pod here.
 
    s.public_header_files = 'Example/DFW/Classes/DFWViewController.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+ s.dependency 'AFNetworking', '~> 2.3'
 end
